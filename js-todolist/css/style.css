@@ -6,11 +6,18 @@
   font-weight: 400;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 header {
@@ -86,7 +93,7 @@ h3 {
 
 .manage {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex: 1;
 }
 
