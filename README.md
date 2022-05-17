@@ -1,6 +1,8 @@
-## Clone Coding
+## Toy Project
 
 ### html-project
+
+![html-project](https://user-images.githubusercontent.com/90893579/168817936-864262b8-5510-44b3-95b3-ed36300c9f94.png)
 
 - Figma 디자인 시안을 통한 UI 구현
 - Grid system 적용
