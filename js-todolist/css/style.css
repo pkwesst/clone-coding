@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 2em;
+  color: #fff;
+  background: linear-gradient(15deg, #06beb6, #48b1bf);
+}
+
+h1 {
+  letter-spacing: 0.05em;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  letter-spacing: -0.03em;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #ccc;
+}
+
+.input-text {
+  width: 90%;
+  padding: 0.3em;
+  padding-left: 2em;
+  border: none;
+}
+
+.add-button {
+  width: 10%;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  background: #ccc;
+  outline: none;
+}
+
+.add:hover {
+  cursor: pointer;
+  background: rgb(147, 146, 146);
+}
+
+.list {
+  list-style: none;
+}
+
+.list li:first-child {
+  padding-left: 1em;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.like {
+  flex: 1;
+}
+
+.item {
+  flex: 8;
+}
+
+.manage {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.like i {
+  display: flex;
+  justify-content: center;
+  color: salmon;
+}
+
+.like i:hover {
+  cursor: pointer;
+}
+
+.check {
+  color: #06beb6;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+
+.clear {
+  color: salmon;
+}
+
+.clear:hover {
+  cursor: pointer;
+}
+
+.done .item {
+  text-decoration: line-through; /* 완료 => 취소선 */
+  color: #ccc;
+}
+
+.done .check {
+  visibility: hidden; /* 완료 => 완료 버튼 숨김*/
+}
