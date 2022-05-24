@@ -1,9 +1,9 @@
 const inputText = document.querySelector(".input-text");
 const addButton = document.querySelector(".add-button");
 const list = document.querySelector(".list");
-
 const likeButtons = document.querySelectorAll(".like");
 
+// 공백 => 저장되지 않음
 const addItem = () => {
   if (inputText.value.trim() == "") {
     return;
