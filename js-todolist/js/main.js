@@ -3,11 +3,13 @@ const addButton = document.querySelector(".add-button");
 const list = document.querySelector(".list");
 const likeButtons = document.querySelectorAll(".like");
 
-// 공백 => 저장되지 않음
 const addItem = () => {
   if (inputText.value.trim() == "") {
+    // 공백 => 저장되지 않음
     return;
   }
+
+  localStorage.getItem(".list"); // ul 내용을 저장
 
   // like
   const like = document.createElement("span");
